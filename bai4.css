@@ -1,0 +1,263 @@
+.ti {
+	width: 85%;
+	height: 600px;
+	margin: 0 auto;
+	background: pink;
+}
+.ti .khung {
+	float: left;
+	width: 40%;
+	height: 400px;
+	margin-left: 5%;
+	margin-top: 5%;
+	background: grey;
+}
+.khung .chi {
+	width: 90%;
+	height: 90%;
+	margin: 5%;
+	background: white;
+	border-radius: 5px;
+}
+.chi .chi1 {
+	width: 100%;
+	height: 50px;
+	background: green;
+	margin-bottom: 15px;
+}
+.chi1 .a1 {
+	float: left;
+	width: 60%;
+	height: 100%;
+
+}
+.a1 h3 {
+	color: white;
+	font-size: 18px;
+	text-align: left;
+	margin-left: 20px;
+	line-height: 10px;
+}
+.chi1 .a2 {
+	float: right;
+	width: 20%;
+	height: 100%;
+}
+.a2 img {
+	width: 50%;
+	height: 50%;
+	padding: 15px 0px 0px 20px;
+}
+.chi label {
+	color: green;
+	font-size: 16px;
+	margin-left: 20px;
+	text-align: left;
+	margin-top: 10px;
+
+}
+.chi input {
+	display: block;
+	width: 80%;
+	height: 30px;
+	margin-left: 20px;
+	border:3px solid grey;
+	margin-top: 5px;
+	margin-bottom: 15px;
+
+}
+.chi input.mes {
+	display: block;
+	width: 80%;
+	height: 60px;
+	margin-left: 20px;
+	border:3px solid grey;
+	margin-top: 5px;
+}
+.chi input:focus {
+	color: red;
+	background: grey;
+}
+.chi input.can {
+	float: left;
+	display: block;
+	width: 30%;
+	height: 30px;
+	background: grey;
+	color: white;
+	font-size: 14px;
+	text-align: center;
+	line-height: 10px;
+
+}
+.chi input.sen {
+	margin-right: 25px;
+	float: right;
+	display: block;
+	width: 40%;
+	height: 30px;
+	background: green;
+	color: white;
+	text-align: center;
+	line-height: 10px;
+	font-size: 14px
+	border: 0;
+
+}
+.ti .khung1 {
+	float: right;
+	width: 40%;
+	height: 500px;
+	margin-right: 5%;
+	margin-top: 5%;
+	background: grey;
+}
+.khung1 h3 {
+	text-align: center;
+	color: white;
+	font-size: 20px;
+	line-height: 10px;
+}
+.khung1 .c {
+	width: 90%;
+	height: 80%;
+	margin: 10% 5% 5% 5%;
+	background: white;
+}
+.c .c1 {
+	width: 100%;
+	height: 100px;
+	background: blue;
+}
+.c1:after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  border: 10px solid;
+  border-color: blue blue white blue;
+  bottom: 62.1%;
+  right:  36.3%;
+}
+.c1 h3 {
+	display: block;
+	width: 100%;
+	height: 20px;
+	line-height: 10px;
+	padding-top: 10px;
+	text-align: center;
+	color: white;
+	font-size: 12px;
+}
+.c1 .k {
+	clear: both;
+	width: 70%;
+	height: 38px;
+	margin-left: 15%;
+	/*background: red;*/
+}
+.k .k1 {
+	float: left;
+	width: 19%;
+	height: 100%;
+	margin: 0% 3% 0% 3%;
+	/*background: black;*/
+}
+.k1 img {
+	width: 100%;
+	height: 100%;
+}
+.c label {
+	clear: both;
+	display: block;
+	width: 50%;
+	height: 20px;
+	text-align: left;
+	font-size: 10px;
+	text-transform: uppercase;
+	color: blue;
+	padding-top: 10px;
+	padding-left: 10%;
+}
+.c input {
+	display: block;
+	width: 80%;
+	height: 25px;
+	margin-left: 10%;
+	background: #bac6d8;
+	border: 0px;
+	margin-bottom: 10px;
+}
+.c .t {
+	clear: both;
+	width: 80%;
+	height: 60px;
+	margin-left: 10%;
+}
+.t .t1 {
+	float: left;
+	width: 60%;
+	height: 100%;
+}
+
+.t .t2 {
+	float: right;
+	width: 35%;
+	height: 100%;
+}
+.t1 label.e {
+	clear: both;
+	display: block;
+	width: 30%;
+	height: 20px;
+	text-align: left;
+	font-size: 10px;
+	text-transform: uppercase;
+	color: blue;
+	padding-top: 10px;
+	padding-left: 10%;
+}
+.t1 input.ex {
+	float: left;
+	display: block;
+	width: 90%;
+	line-height: 10px;
+	height: 25px;
+	background: #bac6d8;
+	margin: 0;
+	text-align: left;
+	padding-left: 10px;
+
+}
+.t2 label.c {
+	clear: both;
+	display: block;
+	width: 30%;
+	height: 20px;
+	text-align: left;
+	font-size: 10px;
+	text-transform: uppercase;
+	color: blue;
+	padding-top: 10px;
+	margin: -30px 0 0 0 ;
+}
+.t2 input.cvs {
+	float: right;
+	display: block;
+	width: 90%;
+	height: 25px;
+	background: #bac6d8;
+
+}
+.c input.pay {
+	display: block;
+	width: 100%;
+	height: 30px;
+	background: orange;
+	color: white;
+	text-align: center;
+	font-size: 12px;
+	line-height: 10px;
+	text-transform: uppercase;
+	margin: 0;
+}

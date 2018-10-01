@@ -1,0 +1,156 @@
+.khung {
+	width: 85%;
+	height: 400px;
+	margin: 0 auto;
+	background: pink;
+}
+.khung .chi {
+	float: left;
+	margin-top: 5%;
+	margin-left: 5%;
+	width: 40%;
+	height: 250px;
+	border-left: 1px solid grey;
+	border-right: 1px solid grey;
+	border-bottom: 1px solid grey;
+	/*background: pink;*/
+}
+.chi .top {
+	margin: 0;
+	width: 100%;
+	height: 60px;
+	background:#2288cc;
+	margin-bottom: 20px;
+}
+
+.top h3 {
+	margin:  0;
+	display: block;
+	width: 60%;
+	height: 90%;
+	color: white;
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 90px;
+	font-size: 25px;
+}
+.chi input {
+	display: block;
+	width: 64%;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	margin-left: 15%;
+	padding-left: 6%;
+	background: #f9f4f6;
+	border: 0.5px solid grey;
+}
+.chi input:focus{
+	color: green;
+	background: violet;
+}
+.chi input.Sign {
+	margin: 0 auto;
+	width: 70%;
+	margin-top: 10px;
+	margin-left: 15%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background:#1bd2e2;
+	border: 0px;
+	color: white;
+}
+.chi a.link {
+	padding-top: 15px;
+	float: right;
+	text-align:  right;
+	font-size: 16px;
+	color: grey;
+	line-height: 20px;
+	text-decoration: none;
+	margin-right: 15%;
+}
+.chi a.link:hover {
+	color: blue;
+}
+.khung .chi1 {
+	float: right;
+	margin-right: 5%;
+	width: 40%;
+	height: 300px;
+	/*background: pink;*/
+	border: 1px solid grey;
+}
+.chi1 .chi1a {
+	width: 100%;
+	height: 50px;
+	background: #4fc62b;
+}
+.chi1a h3 {
+	color: white;
+	text-align: left;
+	text-transform: uppercase;
+	line-height: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 15px;
+}
+.chi1 a.link1 {
+	color: blue;
+	font-size: 16px;
+	line-height: 10px;
+
+}
+.chi1 input {
+	display: block;
+	width: 80%;
+	height: 30px;
+	border-radius: 5px;
+	margin-left: 10%;
+	margin-top: 20px;
+	padding-left: 33px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.chi1 input.username {
+	background-position: left 3px top 5px;
+	background-image: url(https://image.shutterstock.com/z/stock-vector-person-icon-282598823.jpg);
+	background-size: 28px 28px;
+	background-repeat: no-repeat;
+}
+.chi1 input.password {
+	background-position: left 3px top 5px;
+	background-image: url(https://www.flaticon.com/premium-icon/icons/svg/15/15567.svg);
+	background-size: 28px 28px;
+	background-repeat: no-repeat;
+}
+.chi1 input.me {
+	float: left;
+	display: block;
+	width: 20px;
+	height: 30px;
+	margin -left :10%;
+	margin-top: -5px;
+}
+.chi1 input.login {
+	margin: 0 auto;
+	margin-top: 20px;
+	text-align: center;
+	display: block;
+	width: 40%;
+	height: 40px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 20px;
+	color: white;
+	background: #4fc62b;
+	border-radius: 5px;
+	padding-left: 0px;
+}
+.chi1 a.link1 {
+	color:blue;
+	padding-left: 15px;
+}
+.chi1 a.link1:hover {
+	color: #4fc62b;
+}
